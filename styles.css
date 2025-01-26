@@ -1,0 +1,96 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.card img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+}
+
+.stats-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.stats-item {
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+.stats-item strong {
+    font-weight: bold;
+}
+
+h6 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.navbar {
+    border-bottom: 2px solid #ddd;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: #fff !important;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #f8f9fa !important;
+    transform: scale(1.1);
+    text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+button, .btn {
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+
+button:hover, .btn:hover {
+    opacity: 0.8;
+}
